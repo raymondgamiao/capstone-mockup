@@ -104,7 +104,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   outline: 0px;
   box-shadow: none;
 }
-
+.btn-main-events{
+  margin: 0 40px 50px;
+  background: #181818;
+  color: #fff;
+  border-color: #181818;
+}
 .btn-main {
   background: #181818;
   color: #fff;
@@ -907,7 +912,17 @@ ul.dropdown-menu li {
 .team-block img {
   border-radius: 5px;
 }
-
+.service-offer{
+  font-size: 30px;
+  margin-right: 20px;
+  color: #FF715B;
+}
+.service-offer i {
+  font-size: 30px;
+  color: #FF715B;
+  margin-right: 25px;
+  float: left;
+}
 .service-item-list {
   padding: 15px 30px;
   background: #fff;
@@ -916,14 +931,14 @@ ul.dropdown-menu li {
   margin: 0 0 20px;
 }
 .service-item-list i {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.1;
-  margin-right: 20px;
+  margin-right: 5px;
   float: left;
   color: #FF715B;
 }
-.service-item-list p {
-  padding-left: 50px;
+.service-item-list a {
+  font-weight: 500;
   line-height: 1.6;
   margin-bottom: 0px;
   color: #111;
