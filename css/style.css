@@ -54,7 +54,17 @@ h6, .h6 {
 p {
   line-height: 30px;
 }
-
+.logo{
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+  margin: auto;
+}
+.logo-white{
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+  color: #fff;
+  margin: auto;
+}
 .navbar-toggle .icon-bar {
   background: #FF715B;
 }
@@ -82,6 +92,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .py-7 {
   padding: 7rem 0px;
 }
+
 
 .btn {
   display: inline-block;
@@ -130,17 +141,28 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: transparent;
   border-color: #FF715B;
 }
-
+.btn-not-solid-border{
+  border: 2px solid #FF715B;
+  color: #111;
+  margin-left: 5px;
+}
+.btn-not-solid-border:hover {
+  border: 2px solid #FF715B;
+  color: #FF715B;
+  background: #fff;
+}
 .btn-solid-border {
   border: 2px solid #FF715B;
   background: transparent;
-  color: #111;
+  background: #FF715B;
+  color: #fff;
 }
 .btn-solid-border:hover {
   border: 2px solid #FF715B;
   color: #fff;
-  background: #FF715B;
+  background: #d8503b;
 }
+
 
 .btn-transparent {
   background: transparent;
@@ -1053,11 +1075,16 @@ ul.dropdown-menu li {
 }
 
 .testimonial-block {
-  margin: 0px 10px;
+  display: flex;
+  margin: 10px;
+  /* margin: 0px 10px;
   padding: 30px 0px;
   margin-left: 12px;
   padding-left: 15px;
-  padding-right: 0px;
+  padding-right: 0px; */
+}
+.testimonial-block > * {
+  flex: 1;
 }
 .testimonial-block p {
   background: #fff;
